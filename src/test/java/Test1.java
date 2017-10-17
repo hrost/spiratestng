@@ -31,7 +31,7 @@ public class Test1 {
     @SpiraTestCase(testCaseId = 22)
     public void testAdd() {
         double result = (this.fValue1 + this.fValue2);
-        AssertJUnit.assertTrue(result == 5);
+        AssertJUnit.assertTrue(result == 8);
     }
 
     @Test(groups = {"unittest"})
