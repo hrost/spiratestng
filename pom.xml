@@ -25,7 +25,7 @@
     <dependencies>
         <dependency>
             <groupId>com.testnglistener</groupId>
-            <artifactId>testnglistener</artifactId>
+            <artifactId>TestNGListener</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
