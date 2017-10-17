@@ -24,12 +24,6 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.8</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>com.testnglistener</groupId>
             <artifactId>testnglistener</artifactId>
             <version>1.0</version>
@@ -42,4 +36,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>localrepository</id>
+            <url>file://${basedir}</url>
+        </repository>
+    </repositories>
 </project>
