@@ -27,7 +27,6 @@
             <groupId>com.testnglistener</groupId>
             <artifactId>testnglistener</artifactId>
             <version>1.0</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -39,7 +38,7 @@
     <repositories>
         <repository>
             <id>localrepository</id>
-            <url>file://${basedir}</url>
+            <url>file://${basedir}/repo</url>
         </repository>
     </repositories>
 </project>
