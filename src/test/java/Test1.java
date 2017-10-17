@@ -31,7 +31,7 @@ public class Test1 {
     @SpiraTestCase(testCaseId = 22)
     public void testAdd() {
         double result = (this.fValue1 + this.fValue2);
-        AssertJUnit.assertTrue(result == 8);
+        AssertJUnit.assertTrue("Result is not equal to " + result,6==result);
     }
 
     @Test(groups = {"unittest"})
